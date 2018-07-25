@@ -43,5 +43,3 @@ https://highon.coffee/blog/nmap-cheat-sheet/
 
 https://netsec.ws/?p=292
 
-
-
