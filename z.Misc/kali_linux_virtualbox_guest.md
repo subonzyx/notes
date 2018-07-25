@@ -1,4 +1,4 @@
-
+```
 # uname -r
 
 # nano /etc/apt/sources.list
@@ -23,4 +23,4 @@ deb http://http.kali.org/kali kali-rolling main non-free contrib
 # ./VBoxLinuxAdditions.run
 
 # reboot
-
+```
