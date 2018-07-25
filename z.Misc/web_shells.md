@@ -15,8 +15,6 @@ https://github.com/bartblaze/PHP-backdoors/tree/master/Deobfuscated
 
 danielmiessler/SecLists
 
-https://github.com/danielmiessler/SecLists
-
 https://github.com/danielmiessler/SecLists/tree/master/Web-Shells
 
 https://github.com/danielmiessler/SecLists/tree/master/Web-Shells/PHP
@@ -29,8 +27,6 @@ https://github.com/tennc/webshell
 
 https://github.com/tennc/webshell/tree/master/php
 
-https://github.com/tennc/webshell/tree/master/php/PHPshell
-
 ----------------------
 
 JohnTroony/php-webshells
@@ -39,7 +35,9 @@ https://github.com/JohnTroony/php-webshells
 
 ----------------------
 
-Yara-Rules/rules - https://github.com/Yara-Rules/rules
+Yara-Rules/rules
+
+https://github.com/Yara-Rules/rules
 
 https://github.com/Yara-Rules/rules/tree/master/Webshells
 
