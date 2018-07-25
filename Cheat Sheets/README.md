@@ -25,6 +25,10 @@ SSH Cheat Sheet / Local Forwarding / Remote Forwarding
 
 http://pentestmonkey.net/cheat-sheet/ssh-cheat-sheet
 
+SSH & Meterpreter Pivoting
+
+https://highon.coffee/blog/ssh-meterpreter-pivoting-techniques/
+
 MySQL SQL Injection Cheat Sheet
 
 http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet
