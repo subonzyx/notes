@@ -1,4 +1,4 @@
-
+```
 $ sudo apt-get install dwarfdump
 $ sudo apt-get install build-essential
 $ sudo apt-get install linux-headers-`uname -r`
@@ -12,6 +12,7 @@ $ cp ~/LiME-master/src/lime-4.10.0-19-generic.ko ~
 $ sudo insmod ~/lime-4.10.0-19-generic.ko "path=/mnt/alex_06022017.lime format=lime"
 
 $ cp /mnt/alex_06022017.lime ~
+```
 
 https://dominicbunch.wordpress.com/2014/10/11/volatility-and-lime-on-ubuntu-14-04/
 
