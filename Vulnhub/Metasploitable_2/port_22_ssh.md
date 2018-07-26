@@ -38,6 +38,7 @@ OR we can also get authorized SSH keys from the victim machine using the followi
 5. Login to victim machine using Kali's SSH key
 ```
 # ssh root@192.168.50.7
+
 root@metasploitable:~# whoami
 ```
 ### Attack Vector #2 
