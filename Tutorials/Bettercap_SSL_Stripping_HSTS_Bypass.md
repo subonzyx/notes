@@ -46,7 +46,7 @@ A HSTS bypass attack will change it to something like:
 ```
 ... <a href="http://wwwwww.facebook.com/">Login</a> ...
 ```
-Notice that https has been downgraded to http and www replaced with wwwwww.
+Notice that `https` has been downgraded to `http` and `www` replaced with `wwwwww`
 
 When the "victim" will click on that link, no HSTS rule will be applied (since there's no rule for such subdomain we just created) and the MITM software (Bettercap in our case ^_^) will take care of the DNS resolution, allowing us to see and alter the traffic we weren't supposed to see.
 
