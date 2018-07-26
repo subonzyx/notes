@@ -17,7 +17,6 @@ Network Configuration
 1. Install Bettercap
 ```
 # apt-get install build-essential ruby-dev libpcap-dev
-
 # gem install bettercap
 ```
 2. Create a simple 'Login Form' page
@@ -40,11 +39,11 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_login_form
 
 Go to Web browser > http://localhost
 
-4. Create the 'hosts' file to perform DNS spoofing
+4. Create the `hosts` file to perform DNS spoofing
 
 - In a real life scenario, an attacker would redirect traffic to their own machine for data sniffing. In this case, we set up a simple login page, then we use Bettercap to spoof DNS record so that when the victim visits his favorite webpages, he will be redirected to the attacker machine instead. This will probably fool the user into entering their credentials.
 
-- We need to create a 'hosts' file which is responsible for redirecting specific DNS requests.
+- We need to create a `hosts` file which is responsible for redirecting specific DNS requests.
 ```
 # gedit dns.conf
 ```
@@ -75,9 +74,9 @@ local .*yahoo\.com
 - Then, we uses this command to conduct DNS Spoofing (remember select the right network interface)
 ```
 # sudo bettercap -I eth0 -X --gateway 192.168.1.1 --target 192.168.1.15 --dns dns.conf
-
-6. Check your test results
 ```
+6. Check your test results
+
 - Now every time the victim visits the webpages you indicated in the "dns.conf" file, he will be redirected to the malicious webpage.
 
 - For testing purpose, we also need to purge the DNS resolver cache + Web browsing history on Victim machine
