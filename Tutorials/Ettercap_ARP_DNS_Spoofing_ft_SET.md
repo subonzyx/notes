@@ -22,13 +22,13 @@ By default, packets sent to a computer that aren't meant for that computer are d
 ```
 2. Configuring Ettercap
 
-- Open the configuration file (etter.conf) with a text editor and edit the file.
+- Open the configuration file `etter.conf` with a text editor and edit the file.
 ```
 # gedit /etc/ettercap/etter.conf
 ```
-- Edit the "uid" and "gid" values at the top -> make them 0
+- Edit the `uid` and `gid` values at the top -> make them 0
 
-- Scroll down until you find the heading that says "Linux" and under that remove both the # signs below where it says "if you use iptables"
+- Scroll down until you find the heading that says `Linux` and under that remove both the `#` signs below where it says "if you use iptables"
 
 - Save that configuration file
 
@@ -36,7 +36,7 @@ By default, packets sent to a computer that aren't meant for that computer are d
 
 - Please refer to the video...
 
-4. Edit the host file for 'dns_spoof' plugin
+4. Edit the host file for `dns_spoof` plugin
 
 In a real life scenario, an attacker would redirect traffic to their own machine for data sniffing. In this case, we set up a fake Facebook login page using SET (at step 3), then we use Ettercap to spoof DNS record so that when the victim visits the link facebook.com, he will be redirected to the attacker machine instead. This will probably fool the user into entering their credentials.
 
@@ -99,8 +99,9 @@ IE / Firefox / Chrome > Clear Browsing Data
 - On Victim machine, go to facebook.com
 
 => We can check the spoofed DNS records on the victim machine (Windows machine)
+```
 cmd> ipconfig /displaydns
-
+```
 => We can also see the DNS records in Ettercap => [facebook.com] spoofed to [192.168.1.10]
 
 * And don't forget to check traffic sniffed from SET...
